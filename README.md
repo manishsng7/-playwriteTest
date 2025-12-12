@@ -41,8 +41,8 @@ npx playwright test --headed
 
 ```bash
 npx playwright test tests/devMode.spec.ts
-npx playwright test tests/addAllBlocks.spec.ts
-npx playwright test devModeKeys --headed   # uses testMatch to find devModeKeys.specs.ts
+npx playwright test tests/devMode.spec.ts
+npx playwright test devMode --headed   # uses testMatch to find devModeKeys.specs.ts
 ```
 
 ### 4. HTML report & videos
